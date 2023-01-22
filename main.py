@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-model = pickle.load(open('C:/Akash/Projects/Diabetes Predictor/data/diabetes_model.sav','rb'))
+model = pickle.load(open('diabetes_model.sav','rb'))
 
 st.markdown("<h1 style='text-align: center; color: white;'>Welcome to Diabetes Predictor</h1>", unsafe_allow_html=True)
 st.markdown("<h5 style='text-align: left; color: grey;'>Enter the following details</h5>", unsafe_allow_html=True)
